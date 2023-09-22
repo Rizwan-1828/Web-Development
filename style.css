@@ -1,0 +1,77 @@
+/* CSS boilerplate */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height:100%;
+    width: 100%;
+}
+
+/* Giving CSS properties */    
+
+#a{
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+    padding: 25px;
+    background-color: rosybrown;
+}
+
+#b{
+    height: 200px;
+    width: 200px;
+    margin: 30px 20px;
+    padding: 30px;
+    background-color: aquamarine;
+}
+
+#c{
+    height: 200px;
+    width: 200px;
+    margin: 10px 20px 30px 5px;
+    padding: 30px;
+    background-color: rgb(174, 108, 191);
+}
+
+#d{
+    height: 200px;
+    width: 200px;
+    margin: 69px;
+    padding: 20px;
+}
+
+#p1{
+    height: 40%;
+    width: 35%;
+    margin: 20px;
+    padding: 30px;
+    /* background-color: brown; */
+    background-image: url(https://images.unsplash.com/photo-1692607146112-a25194375acb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80);
+    background-size: cover;
+    background-position: center;
+}
+
+#p3{
+    height: 40%;
+    width: 35%;
+    margin: 20px;
+    padding: 30px;
+    /* background-color: brown; */
+    background-image: url(https://images.unsplash.com/photo-1692607146112-a25194375acb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80);
+    background-size: cover;
+    background-position: bottom;
+}
+
+pre{
+    height: 20%;
+    width: 50%;
+    /* background-color: rgb(22, 72, 72); */
+    background-image: url(https://images.unsplash.com/photo-1692607146112-a25194375acb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80);
+    background-size: cover;
+    background-position: center;
+    margin: 30px;
+    padding: 40px;
+}
