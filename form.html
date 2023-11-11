@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>Form</title>
+    </head>
+
+    <body>
+        
+        <form action="backend" method="post">
+
+            <div>
+                <label for="name">Name</label>
+                <input placeholder="Enter your username" type="text" name="username" id="name">
+            </div>
+            <div>
+                <label for="password">Password</label>
+                <input placeholder="Enter your password" type="password" name="password" id="password">
+            </div>
+            <div>
+                <select name="gender" id="gen">
+                    <option value="choose one">Choose one</option>
+                    <option value="male">Male</option>
+                    <option value="female">female</option>
+                </select>
+            </div>
+            <div>
+                Frontend<input type="checkbox" name="skills" id="frontend">
+                Backend<input type="checkbox" name="skills" id="backend">
+            </div>
+            <div>
+                Online: <input type="radio" name="mode" id="mode">
+                Offline: <input type="radio" name="mode" id="mode">
+            </div>
+            <div>
+                <input type="submit" value="Submit">
+            </div>
+
+        </form>
+
+    </body>
+
+</html>
