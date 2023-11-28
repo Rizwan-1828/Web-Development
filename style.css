@@ -5,13 +5,16 @@
     box-sizing: border-box;
 }
 
+/* Giving CSS properties */
+
+/* using multiple tags can be selected using comma(,) */
 html,body{
     height:100%;
     width: 100%;
 }
+    
 
-/* Giving CSS properties */    
-
+/* using id selector */
 #a{
     height: 200px;
     width: 200px;
@@ -65,12 +68,14 @@ html,body{
     background-position: bottom;
 }
 
+/* using class selector*/
 .para{
     font-family: sans-serif;
     color: darkblue;
     text-align: justify;
 }
-    
+
+/* using tag selector */
 pre{
     height: 20%;
     width: 50%;
@@ -80,4 +85,23 @@ pre{
     background-position: center;
     margin: 30px;
     padding: 40px;
+}
+
+/* using attribute selector */
+a[href="Instagram"]{
+    color: brown;
+}
+
+/* using child combinator/selector: it changes properties of only direct 
+childs example: <span> hello <div><p>hi hello</p></div> </span> here div tag is direct child 
+and p tag is child of div tag hence div tag will inherit span tags properties while p tag will not inherit
+while in decendant combinator p tag will inherit all of span tags properties */
+span > p{
+    color: blueviolet;
+}
+
+/* using decendant combinator */
+
+span p {
+    color: aquamarine;
 }
